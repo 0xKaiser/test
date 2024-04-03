@@ -1,0 +1,114 @@
+2024-04-02 09:30:13 | Info    |       | Deployment starts... | SetupLog |||
+2024-04-02 09:30:31 | Info    |       | ----> Entering maintenance mode | SetupLog |||
+2024-04-02 09:30:52 | Warning |       | CompileThemes: Theme #test-red has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2024-04-02 09:30:52 | Warning |       | CompileThemes: Theme #light-grey has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2024-04-02 09:30:52 | Info    |       | For theme 'darkmoon' precompiled file used: 'C:\xampp\htdocs\it\web/data\precompiled_styles\darkmoon.css' | SetupLog |||
+2024-04-02 09:30:54 | Warning |       | Cannot find C:\xampp\htdocs\it\web/env-production/branding/themes/darkmoon/images/arrow.png (images/arrow.png) during SCSS darkmoon precompilation | SetupLog |||
+2024-04-02 09:30:54 | Info    |       | No theme 'darkmoon' compilation was required during setup. | SetupLog |||
+2024-04-02 09:30:54 | Info    |       | For theme 'fullmoon' precompiled file used: 'C:\xampp\htdocs\it\web/data\precompiled_styles\fullmoon.css' | SetupLog |||
+2024-04-02 09:30:55 | Info    |       | No theme 'fullmoon' compilation was required during setup. | SetupLog |||
+2024-04-02 09:30:55 | Info    |       | For theme 'test-red' precompiled file used: 'C:\xampp\htdocs\it\web/data\precompiled_styles\test-red.css' | SetupLog |||
+2024-04-02 09:30:55 | Info    |       | No theme 'test-red' compilation was required during setup. | SetupLog |||
+2024-04-02 09:30:55 | Info    |       | For theme 'light-grey' precompiled file used: 'C:\xampp\htdocs\it\web/data\precompiled_styles\light-grey.css' | SetupLog |||
+2024-04-02 09:30:55 | Info    |       | No theme 'light-grey' compilation was required during setup. | SetupLog |||
+2024-04-02 09:30:55 | Info    |       | <---- Exiting maintenance mode | SetupLog |||
+2024-04-02 09:30:56 | Info    |       | MetaModel::Startup from C:\xampp\htdocs\it\web/conf/production/config-itop.php (ModelOnly = 1) | SetupLog |||
+2024-04-02 09:31:13 | Info    |       | Compilation completed... | SetupLog |||
+2024-04-02 09:31:13 | Info    |       | Move to production starts... | SetupLog |||
+2024-04-02 09:31:13 | Info    |       | ----> Entering read only mode | SetupLog |||
+2024-04-02 09:31:13 | Info    |       | MetaModel::Startup from C:\xampp\htdocs\it\web/conf/production/config-itop.php (ModelOnly = 1) | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Calling Module Handler: EmailSynchroInstaller::BeforeDatabaseCreation(oConfig, , 3.7.2) | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Calling Module Handler: AttachmentInstaller::BeforeDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | No orphan attachment found. | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Calling Module Handler: StructureInstaller::BeforeDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'DBserver' to 'DBServer': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'OSfamily' to 'OSFamily': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'OSversion' to 'OSVersion': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'Webserver' to 'WebServer': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'OSpatch' to 'OSPatch': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'OsLicence' to 'OSLicence': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'IOSversion' to 'IOSVersion': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'IPinterface' to 'IPInterface': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Calling Module Handler: TicketsInstaller::BeforeDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'DBserver' to 'DBServer': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'OSfamily' to 'OSFamily': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'OSversion' to 'OSVersion': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'Webserver' to 'WebServer': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'OSpatch' to 'OSPatch': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'OsLicence' to 'OSLicence': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'IOSversion' to 'IOSVersion': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'IPinterface' to 'IPInterface': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Renaming class in DB - final class from 'IpPhone' to 'IPPhone': 0 rows affected | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Calling Module Handler: StorageMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:15 | Info    |       | Creating the structure in 'itop1'. | SetupLog |||
+2024-04-02 09:31:22 | Info    |       | 0.051s - query: CREATE TABLE `email_replica` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `ticket_id` INT(11) DEFAULT 0, `uidl` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', INDEX `uidl` (`uidl` (95)), `mailbox_path` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', `message_id` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', `message_text` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, `references` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, `thread_index` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, `message_date` DATETIME, `last_seen` DATETIME, `status` ENUM('ok','error','undesired','ignored') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'ok', `error_message` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, `error_trace` LONGTEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, `contents_data` LONGBLOB, `contents_mimetype` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, `contents_filename` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, `contents_downloads_count` INT(11) UNSIGNED) ENGINE = innodb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci  | SetupLog |||
+2024-04-02 09:31:22 | Info    |       | 0.025s - query: CREATE TABLE `priv_trigger_onmailupdate` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY) ENGINE = innodb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci  | SetupLog |||
+2024-04-02 09:31:22 | Info    |       | 0.047s - query: CREATE TABLE `mailinbox_base` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `server` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', `mailbox` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', `login` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', INDEX `login` (`login` (95)), `password` VARCHAR(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', `protocol` ENUM('imap','pop3') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'imap', `port` INT(11), `active` ENUM('no','yes') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'yes', `realclass` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'MailInboxBase', INDEX `realclass` (`realclass` (95))) ENGINE = innodb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci  | SetupLog |||
+2024-04-02 09:31:22 | Info    |       | 0.044s - query: CREATE TABLE `mailinbox_standard` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `behavior` ENUM('both','create_only','update_only') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'both', `target_class` ENUM('Change','EmergencyChange','Incident','NormalChange','Problem','RoutineChange','UserRequest') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'UserRequest', `ticket_default_values` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, `ticket_default_title` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', `title_pattern` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', `unknown_caller_behavior` ENUM('create_contact','reject_email') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'reject_email', `unknown_caller_rejection_reply` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, `caller_default_values` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, `error_behavior` ENUM('delete','mark_as_error') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'mark_as_error', `notify_errors_to` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', `notify_errors_from` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', `trace` ENUM('no','yes') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'no', `debug_trace` LONGTEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, `email_storage` ENUM('delete','keep','move') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'keep', `target_folder` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', `import_additional_contacts` ENUM('always','never','only_on_creation','only_on_update') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'never', `stimuli` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, `realclass` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'MailInboxStandard', INDEX `realclass` (`realclass` (95))) ENGINE = innodb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci  | SetupLog |||
+2024-04-02 09:31:22 | Info    |       | 0.039s - query: CREATE TABLE `mailinbox_oauth` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `oauth_client_id` INT(11) DEFAULT 0, INDEX `oauth_client_id` (`oauth_client_id`)) ENGINE = innodb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci  | SetupLog |||
+2024-04-02 09:31:22 | Info    |       | 0.008s - query: ALTER TABLE `priv_sync_att_linkset` CHANGE `attribute_qualifier` `attribute_qualifier` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '\''  | SetupLog |||
+2024-04-02 09:31:26 | Ok      |       | Database structure successfully updated. | SetupLog |||
+2024-04-02 09:31:26 | Ok      |       | Start of rebuilt of hierchical keys. If you have problems with this step, you can skip it by creating a ".setup-rebuild-hkeys-never" file in data | SetupLog |||
+2024-04-02 09:31:26 | Ok      |       | Hierchical keys rebuilt: The attribute parent_id from Organization is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'organization'...
+Ok, table 'organization' successfully updated.
+The attribute parent_id from Group is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'group'...
+Ok, table 'group' successfully updated.
+ | SetupLog |||
+2024-04-02 09:31:26 | Ok      |       | Data sources checked: There are no Data Sources in the database.
+Ok.
+ | SetupLog |||
+2024-04-02 09:31:26 | Ok      |       | Meta enums rebuilt: Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_incident`.`status` IN ('new', 'assigned', 'pending', 'escalated_tto', 'escalated_ttr') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_incident`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_incident`.`status` IN ('closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_request`.`status` IN ('new', 'waiting_for_approval', 'approved', 'assigned', 'pending', 'escalated_tto', 'escalated_ttr') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_request`.`status` IN ('rejected', 'closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_request`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `change`.`status` IN ('new', 'validated', 'assigned', 'plannedscheduled', 'approved', 'notapproved', 'implemented', 'monitored') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `change`.`status` IN ('rejected', 'closed') AND `ticket`.`operational_status` != 'closed'
+ | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: EmailSynchroInstaller::AfterDatabaseCreation(oConfig, , 3.7.2) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Updating email replicas to set their mailbox path. | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Initializing attachment/item_org_id - null to zero | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Initializing attachment/item_org_id - zero to the container | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Initializing attachment/item_org_id - 0 records have been adjusted | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: StructureInstaller::AfterDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: StorageMgmtInstaller::AfterDatabaseCreation(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | URP_Profiles::GetPredefinedObjects() returned 13 elements. | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: EmailSynchroInstaller::AfterDatabaseSetup(oConfig, , 3.7.2) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDatabaseSetup(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: StructureInstaller::AfterDatabaseSetup(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDatabaseSetup(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseSetup(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseSetup(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseSetup(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: StorageMgmtInstaller::AfterDatabaseSetup(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | starting data load session | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Loading file: C:\xampp\htdocs\it\web/env-production/itop-config-mgmt/data/en_us.data.itop-brand.xml (just to get the keys mapping) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | loading of en_us.data.itop-brand.xml done. | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Loading file: C:\xampp\htdocs\it\web/env-production/itop-config-mgmt/data/en_us.data.itop-osfamily.xml (just to get the keys mapping) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | loading of en_us.data.itop-osfamily.xml done. | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Loading file: C:\xampp\htdocs\it\web/env-production/itop-config-mgmt/data/en_us.data.itop-osversion.xml (just to get the keys mapping) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | loading of en_us.data.itop-osversion.xml done. | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Loading file: C:\xampp\htdocs\it\web/env-production/combodo-webhook-integration/data.struct.remote_application_type.xml (just to get the keys mapping) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | loading of data.struct.remote_application_type.xml done. | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | ending data load session | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: EmailSynchroInstaller::AfterDataLoad(oConfig, , 3.7.2) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDataLoad(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: StructureInstaller::AfterDataLoad(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDataLoad(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDataLoad(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDataLoad(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDataLoad(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:26 | Info    |       | Calling Module Handler: StorageMgmtInstaller::AfterDataLoad(oConfig, 3.1.0, 3.1.0) | SetupLog |||
+2024-04-02 09:31:29 | Info    |       | Deployment successfully completed. | SetupLog |||
+2024-04-02 09:31:29 | Info    |       | <---- Exiting read only mode | SetupLog |||

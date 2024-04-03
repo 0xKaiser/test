@@ -1,0 +1,82 @@
+2024-04-02 09:37:40 | Error   | 1     | Failed to initialize the mailbox: itop@fpt.com. Reason: cannot read - connection closed? | IssueLog |||
+array (
+  'file' => 'C:\\xampp\\htdocs\\it\\web\\lib\\laminas\\laminas-mail\\src\\Protocol\\Imap.php',
+  'line' => 110,
+  'exception.class' => 'Laminas\\Mail\\Protocol\\Exception\\RuntimeException',
+  'exception.stack' => '#0 C:\\xampp\\htdocs\\it\\web\\env-production\\combodo-oauth-email-synchro\\src\\Service\\IMAPOAuthLogin.php(189): Laminas\\Mail\\Protocol\\Imap->nextLine()
+#1 C:\\xampp\\htdocs\\it\\web\\lib\\laminas\\laminas-mail\\src\\Protocol\\Imap.php(125): Combodo\\iTop\\Extension\\Service\\IMAPOAuthLogin->nextLine()
+#2 C:\\xampp\\htdocs\\it\\web\\lib\\laminas\\laminas-mail\\src\\Protocol\\Imap.php(87): Laminas\\Mail\\Protocol\\Imap->assumedNextLine(\'* OK\')
+#3 C:\\xampp\\htdocs\\it\\web\\env-production\\combodo-oauth-email-synchro\\src\\Service\\IMAPOAuthStorage.php(48): Laminas\\Mail\\Protocol\\Imap->connect(\'outlook.office3...\', 993, \'\')
+#4 C:\\xampp\\htdocs\\it\\web\\env-production\\combodo-oauth-email-synchro\\src\\Service\\IMAPOAuthEmailSource.php(51): Combodo\\iTop\\Extension\\Service\\IMAPOAuthStorage->__construct(Object(stdClass))
+#5 C:\\xampp\\htdocs\\it\\web\\env-production\\combodo-oauth-email-synchro\\model.combodo-oauth-email-synchro.php(113): Combodo\\iTop\\Extension\\Service\\IMAPOAuthEmailSource->__construct(Object(MailInboxOAuth))
+#6 C:\\xampp\\htdocs\\it\\web\\env-production\\combodo-email-synchro\\ajax.php(51): MailInboxOAuth->GetEmailSource()
+#7 C:\\xampp\\htdocs\\it\\web\\env-production\\combodo-email-synchro\\ajax.php(249): GetMailboxContent(Object(AjaxPage), Object(MailInboxOAuth))
+#8 {main}',
+)
+2024-04-02 09:53:53 | Error   | 1     | Failed to initialize the mailbox: https://itop.fsoft.com.vn/sms/pages/oauth.landing.php. Reason: The imap_open function is missing. Did you forget to install the PHP module "IMAP" on the server? | IssueLog |||
+array (
+  'file' => 'C:\\xampp\\htdocs\\it\\web\\env-production\\combodo-email-synchro\\classes\\imapemailsource.class.inc.php',
+  'line' => 52,
+  'exception.class' => 'Exception',
+  'exception.stack' => '#0 C:\\xampp\\htdocs\\it\\web\\env-production\\combodo-email-synchro\\model.combodo-email-synchro.php(1008): IMAPEmailSource->__construct(\'outlook.office3...\', NULL, \'https://itop.fs...\', \'qNs8Q~weSEqCEW....\', \'\', Array, \'\')
+#1 C:\\xampp\\htdocs\\it\\web\\env-production\\combodo-email-synchro\\ajax.php(51): MailInboxBase->GetEmailSource()
+#2 C:\\xampp\\htdocs\\it\\web\\env-production\\combodo-email-synchro\\ajax.php(249): GetMailboxContent(Object(AjaxPage), Object(MailInboxStandard))
+#3 {main}',
+)
+2024-04-03 09:16:31 | Error   | 1     | Uncaught Error: Object of class PhpParser\Node\Expr\Variable could not be converted to string in C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\ConfigNodesVisitor.php:97
+Stack trace:
+#0 C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\ConfigNodesVisitor.php(97): sprintf('Invalid configu...', Object(PhpParser\Node\Expr\Variable), 'Expr_FuncCall', 10)
+#1 C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\ConfigNodesVisitor.php(85): Combodo\iTop\Config\Validator\ConfigNodesVisitor->ThrowInvalidConf(Object(PhpParser\Node\Expr\FuncCall))
+#2 C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\ConfigNodesVisitor.php(67): Combodo\iTop\Config\Validator\ConfigNodesVisitor->ValidateNode(Object(PhpParser\Node\Expr\FuncCall))
+#3 C:\xampp\htdocs\it\web\lib\nikic\php-parser\lib\PhpParser\NodeTraverser.php(123): Combodo\iTop\Config\Validator\ConfigNodesVisitor->enterNode(Object(PhpParser\Node\Expr\FuncCall))
+#4 C:\xampp\htdocs\it\web\lib\nikic\php-parser\lib\PhpParser\NodeTraverser.php(223): PhpParser\NodeTraverser->traverseNode(Object(PhpParser\Node\Stmt\Expression))
+#5 C:\xampp\htdocs\it\web\lib\nikic\php-parser\lib\PhpParser\NodeTraverser.php(91): PhpParser\NodeTraverser->traverseArray(Array)
+#6 C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\iTopConfigAstValidator.php(42): PhpParser\NodeTraverser->traverse(Array)
+#7 C:\xampp\htdocs\it\web\env-production\itop-config\config.php(34): Combodo\iTop\Config\Validator\iTopConfigAstValidator->Validate('<?php\r\n\r\n/**\r\n ...')
+#8 C:\xampp\htdocs\it\web\env-production\itop-config\config.php(164): TestConfig('<?php\r\n\r\n/**\r\n ...', Object(iTopWebPage))
+#9 C:\xampp\htdocs\it\web\pages\exec.php(100): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown | IssueLog |||
+array (
+  'type' => 1,
+  'file' => 'C:\\xampp\\htdocs\\it\\web\\env-production\\itop-config\\src\\Validator\\ConfigNodesVisitor.php',
+  'line' => 97,
+)
+2024-04-03 09:17:58 | Error   | 1     | Uncaught Error: Object of class PhpParser\Node\Expr\Variable could not be converted to string in C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\ConfigNodesVisitor.php:97
+Stack trace:
+#0 C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\ConfigNodesVisitor.php(97): sprintf('Invalid configu...', Object(PhpParser\Node\Expr\Variable), 'Expr_FuncCall', 11)
+#1 C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\ConfigNodesVisitor.php(85): Combodo\iTop\Config\Validator\ConfigNodesVisitor->ThrowInvalidConf(Object(PhpParser\Node\Expr\FuncCall))
+#2 C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\ConfigNodesVisitor.php(67): Combodo\iTop\Config\Validator\ConfigNodesVisitor->ValidateNode(Object(PhpParser\Node\Expr\FuncCall))
+#3 C:\xampp\htdocs\it\web\lib\nikic\php-parser\lib\PhpParser\NodeTraverser.php(123): Combodo\iTop\Config\Validator\ConfigNodesVisitor->enterNode(Object(PhpParser\Node\Expr\FuncCall))
+#4 C:\xampp\htdocs\it\web\lib\nikic\php-parser\lib\PhpParser\NodeTraverser.php(223): PhpParser\NodeTraverser->traverseNode(Object(PhpParser\Node\Stmt\Expression))
+#5 C:\xampp\htdocs\it\web\lib\nikic\php-parser\lib\PhpParser\NodeTraverser.php(91): PhpParser\NodeTraverser->traverseArray(Array)
+#6 C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\iTopConfigAstValidator.php(42): PhpParser\NodeTraverser->traverse(Array)
+#7 C:\xampp\htdocs\it\web\env-production\itop-config\config.php(34): Combodo\iTop\Config\Validator\iTopConfigAstValidator->Validate('<?php\r\n\r\n/**\r\n ...')
+#8 C:\xampp\htdocs\it\web\env-production\itop-config\config.php(164): TestConfig('<?php\r\n\r\n/**\r\n ...', Object(iTopWebPage))
+#9 C:\xampp\htdocs\it\web\pages\exec.php(100): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown | IssueLog |||
+array (
+  'type' => 1,
+  'file' => 'C:\\xampp\\htdocs\\it\\web\\env-production\\itop-config\\src\\Validator\\ConfigNodesVisitor.php',
+  'line' => 97,
+)
+2024-04-03 09:20:31 | Error   | 1     | Uncaught Error: Object of class PhpParser\Node\Expr\Variable could not be converted to string in C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\ConfigNodesVisitor.php:97
+Stack trace:
+#0 C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\ConfigNodesVisitor.php(97): sprintf('Invalid configu...', Object(PhpParser\Node\Expr\Variable), 'Expr_FuncCall', 11)
+#1 C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\ConfigNodesVisitor.php(85): Combodo\iTop\Config\Validator\ConfigNodesVisitor->ThrowInvalidConf(Object(PhpParser\Node\Expr\FuncCall))
+#2 C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\ConfigNodesVisitor.php(67): Combodo\iTop\Config\Validator\ConfigNodesVisitor->ValidateNode(Object(PhpParser\Node\Expr\FuncCall))
+#3 C:\xampp\htdocs\it\web\lib\nikic\php-parser\lib\PhpParser\NodeTraverser.php(123): Combodo\iTop\Config\Validator\ConfigNodesVisitor->enterNode(Object(PhpParser\Node\Expr\FuncCall))
+#4 C:\xampp\htdocs\it\web\lib\nikic\php-parser\lib\PhpParser\NodeTraverser.php(223): PhpParser\NodeTraverser->traverseNode(Object(PhpParser\Node\Stmt\Expression))
+#5 C:\xampp\htdocs\it\web\lib\nikic\php-parser\lib\PhpParser\NodeTraverser.php(91): PhpParser\NodeTraverser->traverseArray(Array)
+#6 C:\xampp\htdocs\it\web\env-production\itop-config\src\Validator\iTopConfigAstValidator.php(42): PhpParser\NodeTraverser->traverse(Array)
+#7 C:\xampp\htdocs\it\web\env-production\itop-config\config.php(34): Combodo\iTop\Config\Validator\iTopConfigAstValidator->Validate('<?php\r\n\r\n/**\r\n ...')
+#8 C:\xampp\htdocs\it\web\env-production\itop-config\config.php(164): TestConfig('<?php\r\n\r\n/**\r\n ...', Object(iTopWebPage))
+#9 C:\xampp\htdocs\it\web\pages\exec.php(100): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown | IssueLog |||
+array (
+  'type' => 1,
+  'file' => 'C:\\xampp\\htdocs\\it\\web\\env-production\\itop-config\\src\\Validator\\ConfigNodesVisitor.php',
+  'line' => 97,
+)

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension format="1.0">
+	<extension_code>combodo-mail-to-ticket-automation</extension_code>
+	<company>Combodo SARL</company>
+	<author><![CDATA[Vincent]]></author>
+	<label><![CDATA[Mail to ticket automation]]></label>
+	<description><![CDATA[Scan several mailboxes to create or update tickets.]]></description>
+	<version>3.7.2</version>
+	<modules type="array">
+		<module>
+			<id>combodo-email-synchro</id>
+			<version>tags/3.7.2</version>
+		</module>
+		<module>
+			<id>combodo-cmdbchange-cleaner</id>
+			<version>tags/1.0.5</version>
+		</module>
+		<module>
+			<id>itop-standard-email-synchro</id>
+			<version>tags/3.4.4</version>
+		</module>
+		<module>
+			<id>combodo-oauth-email-synchro</id>
+			<version>tags/1.2.1</version>
+		</module>
+	</modules>
+	<release_date>2023-06-30</release_date>
+	<version_description><![CDATA[
+                * N°2144 - POP3 not supported with iTop 3.1+
+                * N°6422 - Improve french dictionary
+                * Updated german translations by Lars Kaltefleiter
+            ]]></version_description>
+	<itop_version_min>2.7.7</itop_version_min>
+	<status>stable</status>
+	<mandatory>false</mandatory>
+	<more_info_url></more_info_url>
+</extension>

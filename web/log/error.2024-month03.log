@@ -1,0 +1,91 @@
+2024-03-28 09:10:08 | Error   | 1     | Combodo\iTop\Controller\Base\Layout\ObjectController::Combodo\iTop\Controller\Base\Layout\ObjectController::OperationApplyNew : invalid transaction_id ! data: user='admin', class='DocumentFile' | IssueLog |||
+2024-03-28 09:10:26 | Error   | 1     | Combodo\iTop\Controller\Base\Layout\ObjectController::Combodo\iTop\Controller\Base\Layout\ObjectController::OperationApplyNew : invalid transaction_id ! data: user='admin', class='DocumentFile' | IssueLog |||
+2024-03-29 04:38:14 | Error   | 1     | Missing query argument: expecting = this-&gt;agent_id, available = {}
+#0 C:\xampp\htdocs\it\web\core\oql\expression.class.inc.php(535): VariableExpression->RenderExpression(true, Array, false)
+#1 C:\xampp\htdocs\it\web\core\oql\expression.class.inc.php(534): BinaryExpression->RenderExpression(true, Array, false)
+#2 C:\xampp\htdocs\it\web\core\oql\expression.class.inc.php(534): BinaryExpression->RenderExpression(true, Array, false)
+#3 C:\xampp\htdocs\it\web\core\sqlquery.class.inc.php(180): BinaryExpression->RenderExpression(true, Array)
+#4 C:\xampp\htdocs\it\web\core\sqlobjectquery.class.inc.php(374): SQLQuery::ClauseWhere(Object(BinaryExpression), Array)
+#5 C:\xampp\htdocs\it\web\core\dbsearch.class.php(1070): SQLObjectQuery->RenderSelect(Array, Array, 0, 0, true, true)
+#6 C:\xampp\htdocs\it\web\core\dbobjectset.class.php(850): DBSearch->MakeSelectQuery(Array, Array, NULL, NULL, 0, 0, true)
+#7 C:\xampp\htdocs\it\web\core\tabularbulkexport.class.inc.php(274): DBObjectSet->Count()
+#8 C:\xampp\htdocs\it\web\core\csvbulkexport.class.inc.php(112): TabularBulkExport->GetInteractiveFieldsWidget(Object(iTopWebPage), 'interactive_fie...')
+#9 C:\xampp\htdocs\it\web\webservices\export-v2.php(310): CSVBulkExport->GetFormPart(Object(iTopWebPage), 'interactive_fie...')
+#10 C:\xampp\htdocs\it\web\webservices\export-v2.php(418): DisplayForm(Object(iTopWebPage), 'https://localho...', '', '1', NULL)
+#11 C:\xampp\htdocs\it\web\webservices\export-v2.php(693): InteractiveShell('', '1', NULL, '', '')
+#12 {main} | IssueLog |||
+2024-03-29 04:38:39 | Error   | 1     | Missing query argument: expecting = this-&gt;caller_id, available = {}
+#0 C:\xampp\htdocs\it\web\core\oql\expression.class.inc.php(535): VariableExpression->RenderExpression(true, Array, false)
+#1 C:\xampp\htdocs\it\web\core\oql\expression.class.inc.php(534): BinaryExpression->RenderExpression(true, Array, false)
+#2 C:\xampp\htdocs\it\web\core\oql\expression.class.inc.php(534): BinaryExpression->RenderExpression(true, Array, false)
+#3 C:\xampp\htdocs\it\web\core\sqlquery.class.inc.php(180): BinaryExpression->RenderExpression(true, Array)
+#4 C:\xampp\htdocs\it\web\core\sqlobjectquery.class.inc.php(374): SQLQuery::ClauseWhere(Object(BinaryExpression), Array)
+#5 C:\xampp\htdocs\it\web\core\dbsearch.class.php(1070): SQLObjectQuery->RenderSelect(Array, Array, 0, 0, true, true)
+#6 C:\xampp\htdocs\it\web\core\dbobjectset.class.php(850): DBSearch->MakeSelectQuery(Array, Array, NULL, NULL, 0, 0, true)
+#7 C:\xampp\htdocs\it\web\core\tabularbulkexport.class.inc.php(274): DBObjectSet->Count()
+#8 C:\xampp\htdocs\it\web\core\csvbulkexport.class.inc.php(112): TabularBulkExport->GetInteractiveFieldsWidget(Object(iTopWebPage), 'interactive_fie...')
+#9 C:\xampp\htdocs\it\web\webservices\export-v2.php(310): CSVBulkExport->GetFormPart(Object(iTopWebPage), 'interactive_fie...')
+#10 C:\xampp\htdocs\it\web\webservices\export-v2.php(418): DisplayForm(Object(iTopWebPage), 'https://localho...', '', '4', NULL)
+#11 C:\xampp\htdocs\it\web\webservices\export-v2.php(693): InteractiveShell('', '4', NULL, '', '')
+#12 {main} | IssueLog |||
+2024-03-29 04:38:47 | Error   | 1     | Missing query argument: expecting = this-&gt;id, available = {}
+#0 C:\xampp\htdocs\it\web\core\oql\expression.class.inc.php(535): VariableExpression->RenderExpression(true, Array, false)
+#1 C:\xampp\htdocs\it\web\core\oql\expression.class.inc.php(534): BinaryExpression->RenderExpression(true, Array, false)
+#2 C:\xampp\htdocs\it\web\core\sqlquery.class.inc.php(180): BinaryExpression->RenderExpression(true, Array)
+#3 C:\xampp\htdocs\it\web\core\sqlobjectquery.class.inc.php(374): SQLQuery::ClauseWhere(Object(BinaryExpression), Array)
+#4 C:\xampp\htdocs\it\web\core\dbsearch.class.php(1070): SQLObjectQuery->RenderSelect(Array, Array, 0, 0, true, true)
+#5 C:\xampp\htdocs\it\web\core\dbobjectset.class.php(850): DBSearch->MakeSelectQuery(Array, Array, NULL, NULL, 0, 0, true)
+#6 C:\xampp\htdocs\it\web\core\tabularbulkexport.class.inc.php(274): DBObjectSet->Count()
+#7 C:\xampp\htdocs\it\web\core\csvbulkexport.class.inc.php(112): TabularBulkExport->GetInteractiveFieldsWidget(Object(iTopWebPage), 'interactive_fie...')
+#8 C:\xampp\htdocs\it\web\webservices\export-v2.php(310): CSVBulkExport->GetFormPart(Object(iTopWebPage), 'interactive_fie...')
+#9 C:\xampp\htdocs\it\web\webservices\export-v2.php(418): DisplayForm(Object(iTopWebPage), 'https://localho...', '', '12', NULL)
+#10 C:\xampp\htdocs\it\web\webservices\export-v2.php(693): InteractiveShell('', '12', NULL, '', '')
+#11 {main} | IssueLog |||
+2024-03-29 04:42:10 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file '{nuM%Xu=Y|ϤqWyΰmO'#(9a5dFk:<g9KsGW0XaĩW=Աr"_5X#ˈ[Nnũ[r�?3	DP/xgǾ#N^]+Ĉ'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:10 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file '*m'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:10 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file '0dpaU~S\l&̆֘U%7z\Q2PjO$Űٽl'q߈UY}A%Y%`ѝINB8Nv)p',�'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:10 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file '>m[ \04xM_X7dS'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:10 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'q#cQ=T̇ׄd(KE=3ߊx9q5-=e2'KwS}:.^Oe?&ͻ'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:10 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'w0i׾21cq~<$c665AMx<>u_TkYI83OM2}Ū8DVY6Բuu@9u@944sv>RDc6gzĺ4o.[m~�LIJ2KEFoh)h'u~-*hX'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:10 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'kcxw'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:11 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file '{٠bG$}OaȤr=\"7GaͯKb\RHRAG@ڣx'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:11 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'C::\7PhVXddTg3oз5*odL߰,t('. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:11 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'C::\7PhVXddTg3oз5*odL߰,t('. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:11 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'ݠ���������������������[Content_Types].xmlPK-������!�^e�������������������_rels/.relsPK-������!�Kb��	�����������������xl/workbook.xmlPK-������!�iW'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:11 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'm2K���B��#�������������&��xl/worksheets/_rels/sheet1.xml.relsPK-������!�,���B��#�������������'��xl/worksheets/_rels/sheet2.xml.relsPK-������!�G��,��'�������������(��xl/printerSettings/printerSettings1.binPK-������!�G��,��'�������������*��xl/printerSettings/printerSettings2.binPK-������!�"dF���V���������������,��xl/calcChain.xmlPK-������!�d��}���������������-��docProps/core.xmlPK-������!�g��.���������������r0��docProps/app.xmlPK-������!�	h�����������������93��docProps/custom.xmlPK��������+6����'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:11 | Error   | 1     | Uncaught TypeError: CellChangeSpec::SetDisplayableValue(): Argument #1 ($sDisplayableValue) must be of type string, null given, called in C:\xampp\htdocs\it\web\pages\csvimport.php on line 478 and defined in C:\xampp\htdocs\it\web\core\bulkchange.class.inc.php:43
+Stack trace:
+#0 C:\xampp\htdocs\it\web\pages\csvimport.php(478): CellChangeSpec->SetDisplayableValue(NULL)
+#1 C:\xampp\htdocs\it\web\pages\csvimport.php(821): ProcessCSVData(Object(iTopWebPage), true)
+#2 C:\xampp\htdocs\it\web\pages\csvimport.php(1644): Preview(Object(iTopWebPage))
+#3 {main}
+  thrown | IssueLog |||
+array (
+  'type' => 1,
+  'file' => 'C:\\xampp\\htdocs\\it\\web\\core\\bulkchange.class.inc.php',
+  'line' => 43,
+)
+2024-03-29 04:42:22 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file '{nuM%Xu=Y|ϤqWyΰmO'#(9a5dFk:<g9KsGW0XaĩW=Աr"_5X#ˈ[Nnũ[r�?3	DP/xgǾ#N^]+Ĉ'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:22 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file '*m'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:22 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file '0dpaU~S\l&̆֘U%7z\Q2PjO$Űٽl'q߈UY}A%Y%`ѝINB8Nv)p',�'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:22 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file '>m[ \04xM_X7dS'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:22 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'q#cQ=T̇ׄd(KE=3ߊx9q5-=e2'KwS}:.^Oe?&ͻ'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:22 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'w0i׾21cq~<$c665AMx<>u_TkYI83OM2}Ū8DVY6Բuu@9u@944sv>RDc6gzĺ4o.[m~�LIJ2KEFoh)h'u~-*hX'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:22 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'kcxw'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:22 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file '{٠bG$}OaȤr=\"7GaͯKb\RHRAG@ڣx'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:22 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'C::\7PhVXddTg3oз5*odL߰,t('. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:22 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'C::\7PhVXddTg3oз5*odL߰,t('. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:22 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'ݠ���������������������[Content_Types].xmlPK-������!�^e�������������������_rels/.relsPK-������!�Kb��	�����������������xl/workbook.xmlPK-������!�iW'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:22 | Warning | 1     | AttributeBlob::MakeRealValue - Failed to load the file 'm2K���B��#�������������&��xl/worksheets/_rels/sheet1.xml.relsPK-������!�,���B��#�������������'��xl/worksheets/_rels/sheet2.xml.relsPK-������!�G��,��'�������������(��xl/printerSettings/printerSettings1.binPK-������!�G��,��'�������������*��xl/printerSettings/printerSettings2.binPK-������!�"dF���V���������������,��xl/calcChain.xmlPK-������!�d��}���������������-��docProps/core.xmlPK-������!�g��.���������������r0��docProps/app.xmlPK-������!�	h�����������������93��docProps/custom.xmlPK��������+6����'. The file does not exist or the current process is not allowed to access it. | IssueLog |||
+2024-03-29 04:42:22 | Error   | 1     | Uncaught TypeError: CellChangeSpec::SetDisplayableValue(): Argument #1 ($sDisplayableValue) must be of type string, null given, called in C:\xampp\htdocs\it\web\pages\csvimport.php on line 478 and defined in C:\xampp\htdocs\it\web\core\bulkchange.class.inc.php:43
+Stack trace:
+#0 C:\xampp\htdocs\it\web\pages\csvimport.php(478): CellChangeSpec->SetDisplayableValue(NULL)
+#1 C:\xampp\htdocs\it\web\pages\csvimport.php(821): ProcessCSVData(Object(iTopWebPage), true)
+#2 C:\xampp\htdocs\it\web\pages\csvimport.php(1644): Preview(Object(iTopWebPage))
+#3 {main}
+  thrown | IssueLog |||
+array (
+  'type' => 1,
+  'file' => 'C:\\xampp\\htdocs\\it\\web\\core\\bulkchange.class.inc.php',
+  'line' => 43,
+)

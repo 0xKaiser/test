@@ -1,0 +1,13 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"Combodo\\iTop\\Extension\\CMDBChangeCleaner\\" : "src"
+		}
+	},
+	"name" : "combodo/combodo-cmdbchange-cleaner",
+	"type" : "itop-extension",
+	"description" : "orphan CMDBChange cleaner",
+	"require" : {
+		"composer-runtime-api": "^2.0"
+	}
+}
